@@ -1,0 +1,10 @@
+{
+  "TimeToWait": 20,
+  "Destination": "New York",
+  "SiteUrl": "https://www.booking.com",
+  "Email": "agnesspleschitser@gmail.com",
+  "InvalidEmail": "gvjdhsdh",
+  "CheckInMonth": "December 2022",
+  "CheckInDay": "1",
+  "CheckOutDay": "31"
+}
