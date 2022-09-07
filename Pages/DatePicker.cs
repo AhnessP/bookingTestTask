@@ -28,6 +28,6 @@ public class DatePicker:BasePage
         
         _dateList.First(day => day.Text.Equals(checkInDay)).Click();
         
-        _dateList.First(day=>day.Text.Equals(checkOutDay)).Click();
+        _dateList.First(day => day.Text.Equals(checkOutDay)).Click();
     }
 }
