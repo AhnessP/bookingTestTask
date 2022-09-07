@@ -21,9 +21,5 @@ namespace bookingTestTask.Pages;
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeToWait));
             wait.Until(driver => ((IJavaScriptExecutor)driver).ExecuteScript("return document.readyState").Equals("complete"));
         }
-        public string GetPageUrl()
-        {
-            return driver.Url;
-        }
       
     }
