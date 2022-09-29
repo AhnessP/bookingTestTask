@@ -19,12 +19,9 @@ namespace bookingTestTask.Tests
             homePage.WaitAndClickAcceptCookiesButton(dataModel.TimeToWait);
             homePage.WaitAndClickInputDestinationField(dataModel.TimeToWait);
             homePage.WaitAndSendKeysToInputDestinationField(dataModel.TimeToWait, dataModel.Destination);
-            homePage.ImplicitWait(dataModel.TimeToWait);
             homePage.WaitAndClickDesiredDestinationItem(dataModel.TimeToWait);
-            homePage.ImplicitWait(dataModel.TimeToWait);
             homePage.WaitAndClickDatePickerField(dataModel.TimeToWait);
             datePicker = GetDatePicker();
-            datePicker.ImplicitWait(dataModel.TimeToWait);
             datePicker.ChooseDateFromDatePicker(dataModel.CheckInMonth, dataModel.CheckInDay, dataModel.CheckOutDay);
             homePage.WaitAndClickSubmitSearchButton(dataModel.TimeToWait);
             searchResultsPage = GetSearchResultsPage();
