@@ -10,4 +10,5 @@ public class DataModel
     public string CheckInMonth { get; set; }
     public string CheckInDay { get; set; }
     public string CheckOutDay { get; set; }
+    //TODODODODODO
 }
